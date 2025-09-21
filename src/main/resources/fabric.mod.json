@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "tp",
+  "version": "1.0.0",
+  "name": "Tp",
+  "description": "Always-on teleport HUD (OP only).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tp.Tp"
+    ],
+    "client": [
+      "com.tp.client.TpClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*"
+  }
+}
